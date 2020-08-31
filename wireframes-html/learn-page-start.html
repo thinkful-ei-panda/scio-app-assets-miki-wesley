@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <div class="App">
+      <header>
+        <h1>
+          <a href="/">Spaced repetition</a>
+        </h1>
+        <nav>
+          <a href="/dashboard">Dashboard</a>
+          <a href="/learn">Learn</a>
+        </nav>
+      </header>
+      <main>
+        <h2>Translate the word: Apple</h2>
+        <form>
+          <legend>Translate Form</legend>
+          <fieldset>
+            <label id='translation' name='translation'>What's the translation for this word?</label>
+            <input htmlFor='translation' id='translation' name='translation'>            
+            <button class="Button" type="submit">
+                  Submit
+            </button>                        
+          </fieldset>
+        </form>
+        <div>
+          <p>You have answered this word correctly X times.</p>
+          <p>You have answered this word incorrectly X times.</p>
+        </div>
+        <footer>
+          Your total score is: X
+        </footer>
+      </main>
+    </div>
+  </div>    
+</body>
+</html>
