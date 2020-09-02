@@ -168,6 +168,14 @@ input {
     font-size: 14px;
 }
 
+.learn-guess-correct {
+    color: #1b5e20;
+}
+
+.learn-guess-incorrect {
+    color: #b71c1c;
+}
+
 .learn-guess-form {
     display: flex;
     flex-flow: row;
@@ -188,6 +196,7 @@ input#learn-guess-input {
 }
 
 .learn-guess-form > button {
+    /* align-self: center; */
     margin: 8px;
     padding: 4px 8px;
     /* box-sizing: border-box; */
@@ -217,6 +226,13 @@ footer > a {
 }
 
 @media all and (min-width: 500px) {
+    .learn-guess-group {
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media all and (min-width: 900px) {
     .wrapper {
         width: 85%;
     }
@@ -243,7 +259,7 @@ footer > a {
 
     .learn-guess-group {
         margin: auto;
-        width: 30%;
+        width: 50%;
     }
 
     /* Typography */

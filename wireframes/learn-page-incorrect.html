@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css" >
     <title>Document</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
         <div class="App">
             <header class="header-background-color">
                 <div class="header-group wrapper">
-                    <h1 class="item">
+                    <h1 class="header item">
                         <a class="header">Spaced Repetition</a>
                     </h1>
                     <nav class="item nav-group">
@@ -18,13 +19,22 @@
                     </nav>
                 </div>
             </header>
-            <main>
-                <!-- <h2>Good try, but not quite right</h2>
-                <section>The correct translation for Apple was Apple and you chose Banana!</section>        
-                <button class="Button" type="click">Try another word!</button>
-                <footer>
-                    Your total score is: X
-                </footer> -->
+            <main class="wrapper">
+                <section class="group-column">
+                    <p class="caption">Total Correct Answers: 0</p>
+                    <h2>Latin</h2>
+                    <article class="learn-guess-group">
+                        <div class="learn-guess-score">
+                            <p class="">Correct Score: 0</p>
+                            <p class="learn-guess-incorrect">Incorrect Score: 0</p>
+                        </div>
+                        <h3>Original/Translation</h3>
+                        <p>Sorry, user!</p>
+                        <div>
+                            <button>Next Word</button>
+                        </div>
+                    </article>       
+               </section>
             </main>
         </div>
     </div>    
