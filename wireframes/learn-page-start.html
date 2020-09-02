@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css" >
     <title>Document</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
         <div class="App">
             <header class="header-background-color">
                 <div class="header-group wrapper">
-                    <h1 class="item">
+                    <h1 class="header item">
                         <a class="header">Spaced Repetition</a>
                     </h1>
                     <nav class="item nav-group">
@@ -18,21 +19,23 @@
                     </nav>
                 </div>
             </header>
-            <main>
-                <!-- <h2>Translate the word: Apple</h2>
-                <form>
-                    <legend>Translate Form</legend>
-                    <fieldset>
-                        <label id='translation' name='translation'>What's the translation for this word?</label>
-                        <input htmlFor='translation' id='translation' name='translation'>            
-                        <button class="Button" type="submit">Submit</button>                        
-                    </fieldset>
-                </form>
-                <div>
-                    <p>You have answered this word correctly X times.</p>
-                    <p>You have answered this word incorrectly X times.</p>
-                </div>
-                <footer>Your total score is: X</footer> -->
+            <main class="wrapper">
+                <section class="group-column">
+                    <p class="caption">Total Correct Answers: 0</p>
+                    <h2>Latin</h2>
+                    <article class="learn-guess-group">
+                        <div class="learn-guess-score">
+                            <p>Correct Score: 0</p>
+                            <p>Incorrect Score: 0</p>
+                        </div>
+                        <h3>Word</h3>
+                        <form class="learn-guess-form">
+                            <label for="learn-guess-input">Guess:</label>
+                            <input id="learn-guess-input" placeholder="Input guess here" type="text" /> 
+                            <button>Submit</button>
+                        </form>
+                    </article>       
+               </section>
             </main>
         </div>
     </div>    
